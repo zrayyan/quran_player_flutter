@@ -1,0 +1,23 @@
+name: quran_player
+description: A sample command-line application with basic argument parsing.
+version: 0.0.1
+repository: https://github.com/zrayyan/quran_player
+
+environment:
+  sdk: ^3.6.0
+
+# Add regular dependencies here.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.35
+  http: ^1.1.0
+  intl: ^0.17.0
+  path: ^1.8.0
+  sqlite3: ^2.1.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
